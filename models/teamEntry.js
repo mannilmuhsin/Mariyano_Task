@@ -8,6 +8,7 @@ const teamEntrySchema = new mongoose.Schema({
   totalPoints: { type: Number, default: 0 },
 });
 
-const TeamEntry = mongoose.model("TeamEntry", teamEntrySchema);
+const TeamEntry = mongoose.model("players", teamEntrySchema);
 
 module.exports = TeamEntry;
+  
